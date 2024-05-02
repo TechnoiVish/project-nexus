@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(#2A00B7,#42006C);
+
+}
+
+.container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.container > form {
+  width: 80%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+  min-height:450px;
+}
+pre {
+  width: 70%;
+  color: #fff;
+  font-size: larger;
+}
+
+button {
+  background: #0563b4 !important;
+  }
+
+p {
+  color: red;
+}
+.button{
+  width:100%;
+  padding:5px;
+  color:white;
+}
+.container pre{
+  display:none;
+}
